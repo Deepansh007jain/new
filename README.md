@@ -31,5 +31,30 @@ User entered into with his username and password, when he entered into this, he 
 (Eg: pycharm)
 2.	Now open command prompt We need to create a virtual environment first if you have multiple python versions, run the command to install virtualenv package.
  >> pip install virtualenv
- 
+3.	Create a virtual environment of any name by running the following command
+ >> virtualenv {NAME} 
+You can go with name of the virtualenv as Django, just replace {NAME} with Django like this 
+>> virtualenv Django
+It will create a folder which will have all the necessary files for our python environment to run.
+4.	Now we need to activate the virtual environment, so run the command –
+ >>cd Django/Scripts >>activate
+This will activate the environment and you will be able to see the name Django at the left side of prompt.
+5.	Now we need to install django package
+ >>pip install Django
+6.	After that check your django version 
+>>python -m django version
+7.	Now you need to comeback to the previous directory so run the below command TWICE.
+ >> cd .. >> cd ..
+8.	Now open the code file by using the command 
+>>cd eshop
+9.	Now run the command 
+>> python manage.py runserver
+10.	Now you get a server link
+            http://127.0.0.1:8000/
+copy and paste the link to any browser.
+
+The web page will start running .
+
+
+
 
